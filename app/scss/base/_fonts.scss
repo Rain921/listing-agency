@@ -1,0 +1,127 @@
+/*@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/Open Sans Light.eot');
+	src: url('../fonts/Open Sans Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Open Sans Light.woff') format('woff'), url('../fonts/Open Sans Light.ttf') format('truetype'), url('../fonts/Open Sans Light.svg#Open Sans Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-FFFD;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/Open Sans Bold.eot');
+	src: url('../fonts/Open Sans Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Open Sans Bold.woff') format('woff'), url('../fonts/Open Sans Bold.ttf') format('truetype'), url('../fonts/Open Sans Bold.svg#Open Sans Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-FFFD;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/Open Sans.eot');
+	src: url('../fonts/Open Sans.eot?#iefix') format('embedded-opentype'), url('../fonts/Open Sans.woff') format('woff'), url('../fonts/Open Sans.ttf') format('truetype'), url('../fonts/Open Sans.svg#Open Sans') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-FFFD;
+}*/
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-Heavy.eot');
+    src: url('../fonts/Geometria-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Geometria-Heavy.woff') format('woff'),
+        url('../fonts/Geometria-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria.eot');
+    src: url('../fonts/Geometria.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Geometria.woff') format('woff'),
+        url('../fonts/Geometria.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-Medium.woff2') format('woff2'),
+        url('../fonts/Geometria-Medium.woff') format('woff'),
+        url('../fonts/Geometria-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-Light.woff2') format('woff2'),
+        url('../fonts/Geometria-Light.woff') format('woff'),
+        url('../fonts/Geometria-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria-Bold.eot');
+    src: url('../fonts/Geometria-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Geometria-Bold.woff2') format('woff2'),
+        url('../fonts/Geometria-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+//icon-fonts
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../img/icons-fonts/icomoon.eot?7tyzjs');
+  src:  url('../img/icons-fonts/icomoon.eot?7tyzjs#iefix') format('embedded-opentype'),
+    url('../img/icons-fonts/icomoon.ttf?7tyzjs') format('truetype'),
+    url('../img/icons-fonts/icomoon.woff?7tyzjs') format('woff'),
+    url('../img/icons-fonts/icomoon.svg?7tyzjs#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-slider-arrows_left:before {
+  content: "\e900";
+  color:#d1d1d1;
+  font-size:22px;
+  transition: .3s;
+  padding-top:7px;
+  padding-bottom:7px;
+}
+.icon-slider-arrows_right:before {
+  content: "\e901";
+   color:#d1d1d1;
+   font-size:22px;
+  transition: .3s;
+  padding-top:7px;
+  padding-bottom:7px;
+   
+}
+.icon-slider-arrows_right:hover:before {
+   color:#c80000;
+}
+.icon-slider-arrows_left:hover:before {
+   color:#c80000;
+}
+
+
